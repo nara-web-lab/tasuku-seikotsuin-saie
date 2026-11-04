@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#30231c">
+<title>たすく整骨院</title>
+<style>
+:root{--night:#101a16;--deep:#17261f;--pine:#244333;--lime:#c8f169;--paper:#f2f0e7;--white:#fbfaf5;--ink:#17211c;--muted:#67746b;--line:#d8ddd4;--serif:"Yu Mincho","Hiragino Mincho ProN","Noto Serif JP",serif;--sans:system-ui,-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;color:var(--ink);background:var(--paper);font-family:var(--sans);line-height:1.85}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 60px));margin:auto}.top{background:var(--night);color:white}.head{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff21}.brand{display:flex;align-items:center;gap:12px;font-weight:750;letter-spacing:.1em}.mark{display:grid;place-items:center;width:35px;height:35px;border:1px solid var(--lime);color:var(--lime);font-family:var(--serif);border-radius:50%}.nav{display:flex;align-items:center;gap:23px;font-size:.8rem}.nav a{color:#e8ede8}.nav a[href="#menu"]{color:var(--night);background:var(--lime);padding:9px 15px;font-weight:700}.hero{position:relative;overflow:hidden;background:var(--night);color:#fff;min-height:690px;display:flex;align-items:center}.hero:before{content:"";position:absolute;width:680px;height:680px;border:1px solid #c8f1693b;border-radius:50%;right:-90px;top:-100px}.hero:after{content:"";position:absolute;width:520px;height:520px;border:1px solid #c8f16933;border-radius:50%;right:-10px;top:-18px}.hero-grid{position:relative;z-index:1;width:min(1160px,calc(100% - 60px));display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:28px;align-items:center;padding:55px 0 75px}.hero-copy{position:relative;z-index:2;min-width:0}.hero h1{font:500 clamp(2.2rem,3.8vw,3.3rem)/1.55 var(--serif);letter-spacing:.055em;margin:22px 0 23px;max-width:700px}.tagline{font-size:1.05rem;color:#d0d8cf}.eyebrow{font-size:.7rem;letter-spacing:.24em;color:var(--lime);text-transform:uppercase;font-weight:750}.herolinks{display:flex;gap:12px;margin-top:34px}.herolinks a{border:1px solid #ffffff88;padding:11px 17px;font-size:.84rem}.herolinks a:first-child{background:var(--lime);border-color:var(--lime);color:var(--night);font-weight:750}.sport-art{height:430px;position:relative;display:grid;place-items:center}.sport-art .disc{position:absolute;width:345px;height:345px;background:var(--pine);border:1px solid #c8f1697d;border-radius:50%;right:8%;top:34px}.sport-art .slash{position:absolute;width:440px;height:80px;background:var(--lime);opacity:.95;transform:rotate(-42deg);right:-60px;top:180px;clip-path:polygon(0 0,100% 0,82% 100%,0 100%)}.sport-art .lane{position:absolute;width:440px;height:155px;border:1px solid #f2f0e78a;border-radius:50%;transform:rotate(-42deg);right:-10px;top:151px}.sport-art .lane:after{content:"";position:absolute;inset:19px 27px;border:1px solid #f2f0e759;border-radius:50%}.sport-art .sil{position:absolute;width:115px;height:185px;z-index:1;right:37%;top:114px;transform:rotate(18deg)}.sil:before{content:"";position:absolute;width:49px;height:49px;border-radius:50%;background:#dab592;left:37px;top:0}.sil:after{content:"";position:absolute;width:90px;height:127px;border-radius:46% 46% 25% 25%;background:var(--night);left:16px;top:53px;border-bottom:12px solid #dab592;box-shadow:-39px 113px 0 -24px #cfaa78,29px 111px 0 -22px #cfaa78}.caption{position:absolute;bottom:15px;left:12px;color:#e6ecdf;font-size:.67rem;letter-spacing:.18em}.belt{background:var(--lime);color:var(--night);padding:17px 0;font-size:.87rem;font-weight:720;letter-spacing:.05em}.belt .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}.belt span{font-size:.7rem;letter-spacing:.2em}
+.section{padding:96px 0}.section.dark{background:var(--deep);color:white}.section.green{background:#dfe6d9}.headrow{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:36px}.kicker{color:#58745d;font-size:.68rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;margin-bottom:7px}.dark .kicker{color:var(--lime)}h2{font:500 clamp(1.9rem,3.8vw,3rem)/1.45 var(--serif);letter-spacing:.04em;margin:0}h3{line-height:1.55}.intro{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}.coach-card{background:var(--pine);color:white;min-height:360px;padding:34px;position:relative;overflow:hidden}.coach-card:after{content:"";position:absolute;width:245px;height:245px;border:1px solid #c8f16980;border-radius:50%;right:-64px;bottom:-96px;box-shadow:0 0 0 30px #c8f1690d,0 0 0 62px #c8f1690a}.coach-label{font-size:.75rem;letter-spacing:.15em;color:var(--lime)}.coach-name{font:500 2rem var(--serif);margin-top:8px}.coach-bio{position:relative;z-index:1}.coach-bio p{color:#e2e9e0}.line{height:1px;background:#c8f1695c;margin:24px 0}.list-title{color:var(--lime);font-size:.82rem;margin:12px 0 4px}.plain-list{margin:0;padding:0;list-style:none;font-size:.86rem}.copy p{font-size:.93rem;color:#48564c;margin:0 0 14px}.dark .copy p{color:#d7e1d8}.copy p:last-child{margin-bottom:0}.activities{display:grid;grid-template-columns:1fr 1fr;gap:38px;margin-top:36px}.activity{border-top:1px solid #6f8c74;padding-top:16px}.activity strong{color:var(--lime);font-size:.85rem}.activity ul{padding:0;list-style:none;margin:10px 0 0;font-size:.85rem;color:#e3e9e2}
+.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.feature{background:var(--white);padding:23px 25px;display:grid;grid-template-columns:43px 1fr;gap:12px;align-items:start}.feature .num{color:#668544;font:1.15rem var(--serif)}.feature p{font-size:.88rem;margin:0;color:#455349}.fees{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.fee{background:var(--white);padding:25px;border-top:3px solid #a5cf4a;min-height:280px}.fee h3{font:650 1.08rem var(--sans);margin:7px 0 14px}.fee .code{color:#577145;font-size:.7rem;font-weight:800;letter-spacing:.16em}.fee p{font-size:.86rem;color:#4c594f}.fee .aside{font-size:.78rem}.prices{display:grid;grid-template-columns:1fr 1fr;gap:18px}.price-card{background:var(--white);padding:26px 29px}.price-card h3{margin:0 0 17px;font-size:1.05rem}.price-row{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:13px 0;font-weight:720}.menu-list{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.menu-item{background:var(--night);color:white;padding:23px;min-height:238px;position:relative;overflow:hidden}.menu-item:after{content:"";position:absolute;width:120px;height:120px;border:1px solid #c8f1698a;transform:rotate(45deg);right:-50px;top:-52px}.menu-item h3{font-size:1rem;color:var(--lime);margin:0 0 11px}.menu-item p{font-size:.82rem;color:#d8e0d8;min-height:66px}.menu-item .cost-title{font-size:.74rem;color:#c9d6c9;margin:12px 0 4px}.menu-item .price-row{border-color:#ffffff30;padding:6px 0;font-size:.82rem}.notice{padding:15px 18px;background:#e4e9df;color:#536056;font-size:.83rem;margin-top:16px}
+.news{display:flex;align-items:center;justify-content:space-between;gap:25px;background:var(--night);color:white;padding:24px 27px}.news h3{margin:0;font:500 1.05rem var(--serif)}.news p{margin:0;color:#d6ded6;font-size:.84rem}.news a{color:var(--lime);font-size:.83rem;white-space:nowrap}.room-card{min-height:280px;position:relative;overflow:hidden;background:linear-gradient(140deg,#192a21,#355c43 56%,#18251e);display:flex;align-items:end;padding:28px;color:white}.room-card:before,.room-card:after{content:"";position:absolute;width:520px;height:180px;border:1px solid #ffffff6b;border-radius:50%;transform:rotate(-31deg);right:-60px;top:24px}.room-card:after{width:480px;top:49px;right:-20px}.room-card h3{position:relative;z-index:1;margin:0;color:var(--lime);font:500 1.3rem var(--serif)}.faq{max-width:900px}.faq details{border-top:1px solid #516056;padding:19px 0}.faq details:last-child{border-bottom:1px solid #516056}.faq summary{cursor:pointer;list-style:none;display:flex;align-items:flex-start;gap:15px;font-weight:650}.faq summary::-webkit-details-marker{display:none}.faq summary:before{content:none}.faq summary:after{content:"＋";margin-left:auto;color:var(--lime)}.faq details[open] summary:after{content:"−"}.faq details p{margin:13px 30px 0;color:#d3ddd3;font-size:.9rem}.access-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:40px;align-items:start}.address{font:500 1.08rem/2 var(--serif);margin-top:25px}.hoursbox{background:var(--white);padding:20px}.hours{border-collapse:collapse;width:100%;text-align:center;font-size:.78rem}.hours th,.hours td{padding:10px 5px;border-bottom:1px solid var(--line)}.hours th:first-child{text-align:left;white-space:nowrap}.hours thead{color:#4e7042}.hoursbox .footnotes{font-size:.79rem;color:#536056;margin:13px 0 0}.info{font-size:.87rem;color:#435249}.contact{background:var(--lime);color:var(--night);padding:51px 0}.contact-inner{display:flex;justify-content:space-between;align-items:center;gap:24px}.contact h2{font-size:1.65rem}.contact-data{font-weight:760;text-align:right}.contact-data .tel{font-size:1.2rem}.social{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:10px;font-size:.78rem}.social-button{display:inline-flex;align-items:center;justify-content:center;min-width:112px;padding:11px 16px;border:0;border-radius:3px;color:#fff;-webkit-text-fill-color:#fff;font:inherit;font-weight:700;letter-spacing:.03em;opacity:.78;cursor:not-allowed}.social-button.instagram{background:#8d5a7d}.social-button.line{background:#06c755}.foot{background:var(--night);color:white;padding:28px 0}.foot-inner{display:flex;justify-content:space-between;align-items:center;gap:20px}.foot address{font-style:normal;font-size:.81rem;color:#d6ded6}.copyright{color:#b4c0b6;font-size:.73rem}.mobile-nav{display:none}
+@media(max-width:820px){.wrap{width:calc(100% - 38px)}.nav{gap:12px}.nav a:not(:last-child){display:none}.hero{min-height:0}.hero-grid{grid-template-columns:1fr;padding:58px 0 36px;gap:0}.hero h1{font-size:2.2rem;margin:14px 0}.tagline{font-size:.95rem}.sport-art{height:300px;margin-top:2px}.sport-art .disc{width:250px;height:250px;right:10%;top:20px}.sport-art .slash{width:370px;top:130px;right:-80px}.sport-art .lane{width:350px;top:111px;right:-55px}.sport-art .sil{transform:scale(.8) rotate(18deg);right:39%;top:74px}.caption{bottom:0}.belt .wrap{align-items:flex-start;flex-direction:column;gap:3px}.section{padding:68px 0}.headrow{align-items:start;flex-direction:column;gap:6px;margin-bottom:25px}.intro,.access-grid{grid-template-columns:1fr;gap:17px}.coach-card{min-height:330px}.activities{gap:22px}.feature-grid{grid-template-columns:1fr}.fees{grid-template-columns:1fr;gap:10px}.fee{min-height:0}.prices{grid-template-columns:1fr;gap:12px}.menu-list{grid-template-columns:1fr}.menu-item{min-height:0}.menu-item p{min-height:0}.news{align-items:flex-start;flex-wrap:wrap;gap:9px}.news a{margin-left:auto}.room-card{min-height:220px}.hoursbox{overflow-x:auto;padding:14px 10px}.hours{min-width:520px}.contact-inner{align-items:flex-start;flex-direction:column}.contact-data{text-align:left}.foot-inner{align-items:flex-start;flex-direction:column}.mobile-nav{position:fixed;z-index:9;display:flex;bottom:0;left:0;right:0;background:#101a16f2;padding:8px 12px calc(8px + env(safe-area-inset-bottom));justify-content:center;backdrop-filter:blur(10px)}.mobile-nav a{width:100%;max-width:540px;min-height:48px;display:grid;place-items:center;background:var(--lime);color:var(--night);font-weight:750;font-size:.88rem}.mobile-nav a:after{content:"↓";font-size:1.25rem}.foot{padding-bottom:78px}}
+@media(max-width:430px){.activities{grid-template-columns:1fr;gap:18px}.feature{padding:19px}.hero h1{font-size:2.55rem}.coach-name{font-size:1.7rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Visual direction based on the additional reference: warm, bright, photo-led clinic design. */
+:root{--night:#282b25;--deep:#f8f7f2;--pine:#f0eee6;--lime:#9d9a69;--paper:#f6f5ef;--white:#fff;--ink:#292a25;--muted:#706f65;--line:#ddd9cc}
+.top{background:transparent;color:var(--ink)}
+.head{position:absolute;z-index:6;top:0;left:50%;transform:translateX(-50%);height:88px;border:0;color:var(--ink)}
+.brand{color:var(--ink)}
+.mark{border-color:var(--lime);color:#777847}
+.nav{margin-right:76px;background:#ffffffdf;padding:7px 8px;border:1px solid #e0ddd2}
+.nav a{color:#34352e}
+.nav a[href="#menu"]{background:var(--lime);color:#fff;padding:9px 15px}
+.hero{min-height:760px;align-items:center;background:linear-gradient(90deg,rgba(247,246,240,.98) 0%,rgba(247,246,240,.96) 32%,rgba(247,246,240,.78) 48%,rgba(247,246,240,.18) 72%,rgba(247,246,240,0) 100%),url("assets/hero-treatment.png") center 48%/cover no-repeat;color:var(--ink)}
+.hero:before,.hero:after{display:none}
+.hero-grid{width:min(1240px,calc(100% - 120px));grid-template-columns:1fr;padding:128px 0 48px}
+.hero-copy{max-width:825px}
+.hero h1{font-size:clamp(2.7rem,5vw,4.15rem);line-height:1.43;max-width:800px;letter-spacing:.035em}
+.eyebrow{color:#737449;letter-spacing:.13em}
+.tagline{max-width:770px}
+.tagline p{display:table;width:fit-content;max-width:100%;padding:9px 18px;margin:10px 0;background:rgba(143,139,115,.94);color:white;line-height:1.7;font-size:.93rem}
+.herolinks{margin-top:22px}
+.herolinks a{border-color:#86836f;background:rgba(255,255,255,.82);color:#49483c}
+.herolinks a:first-child{background:#88856e;color:white;border-color:#88856e}
+.sport-art{display:none}
+.section{padding:82px 0;background:var(--white)}
+.section.dark{background:#f7f6f0;color:var(--ink)}
+.section.green{background:#efede3}
+.headrow{margin-bottom:28px}
+h2{font-size:clamp(1.8rem,3.2vw,2.5rem);color:#34352d}
+.intro{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:stretch}
+.training-visual{position:relative;margin:0;min-width:0;min-height:440px}.training-photo{display:block;width:100%;height:100%;min-height:440px;object-fit:cover}.training-visual figcaption{position:absolute;right:10px;bottom:10px;padding:3px 8px;background:#ffffffdf;color:#4b4b40;font-size:.68rem}
+.coach-card{background:#e9e6db;color:var(--ink);min-height:440px;padding:30px;}
+.coach-card:after{border-color:#a6a17b;box-shadow:0 0 0 30px #a6a17b12,0 0 0 62px #a6a17b0d}
+.coach-label,.list-title{color:#77764a}
+.coach-name{color:#292a25}
+.line{background:#b2ad90}
+.plain-list{color:#4a4a40}
+.copy{grid-column:1/-1;max-width:940px;padding-top:10px}
+.section.dark .copy p{color:#171915}
+.fees{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.fee{background:#f5f3ec;border-top:3px solid var(--lime);padding:24px}
+.fee h3{color:#3e4035}
+.price-row{border-color:var(--line)}
+.menu-item{background:#e7e4d8;color:#292a25;border-top:3px solid var(--lime)}
+.menu-item h3{color:#62613f}
+.menu-item p{color:#55554b}
+.menu-item .cost-title{color:#6f704b}
+.menu-item .price-row{border-color:#d3d0c4;color:#35362f}
+.news{background:#918d75;color:white;padding:15px 22px;display:grid;grid-template-columns:130px 1fr auto;align-items:center;gap:20px}
+.news h3{font-size:.78rem;letter-spacing:.14em;color:white}
+.news p{color:white}
+.news a{color:white;border-bottom:1px solid #ffffff9c;padding-bottom:2px}
+.room-card{background:linear-gradient(140deg,#e8e5d9,#d8d4c3 56%,#efeee8);color:#34352e}
+.room-card:before,.room-card:after{border-color:#aaa588}
+.room-card h3{color:#58583e}
+.section.dark .faq details{border-color:#d6d3c7}
+.section.dark .faq summary:after{color:#77764a}
+.section.dark .faq details p{color:#5d5d53}
+.access-grid{grid-template-columns:.82fr 1.18fr}
+.hoursbox{background:#f7f6f0}
+.hours thead{color:#6b6b47}
+.foot{background:#38392f;color:white}
+.side-dock{position:fixed;z-index:8;right:0;top:146px;display:flex;flex-direction:column;gap:0;background:rgba(255,255,255,.93);box-shadow:0 4px 24px #00000010}
+.side-dock a{writing-mode:vertical-rl;text-orientation:mixed;padding:17px 20px;font-size:.76rem;letter-spacing:.08em;color:#454539;border-bottom:1px solid #e4e1d8}
+.side-dock a:last-child{background:#918d75;color:#fff}
+.mobile-nav a{background:#918d75;color:#fff}
+@media(max-width:820px){
+ .head{height:70px}.nav{margin-right:60px}
+ .hero{min-height:760px;background-image:linear-gradient(90deg,rgba(247,246,240,.97) 0%,rgba(247,246,240,.91) 48%,rgba(247,246,240,.55) 100%),url("assets/hero-treatment.png");background-position:59% center}
+ .hero-grid{width:calc(100% - 38px);padding:112px 0 38px}
+ .hero h1{font-size:clamp(2.15rem,8.5vw,3.25rem);line-height:1.5}
+ .tagline p{font-size:.85rem;padding:8px 12px}
+ .side-dock{display:none}
+ .section{padding:64px 0}
+ .intro{grid-template-columns:1fr;gap:14px}
+ .training-visual{height:300px;min-height:0}.training-photo{height:300px;min-height:0}
+ .coach-card{min-height:0}
+ .copy{grid-column:auto}
+ .fees{grid-template-columns:1fr}
+ .news{grid-template-columns:1fr;gap:3px;padding:15px}
+ .news a{margin:4px 0 0 auto}
+ .access-grid{grid-template-columns:1fr}
+ .room-card{min-height:220px}
+ .mobile-nav a{font-size:.85rem}
+}
+@media(max-width:430px){.hero{min-height:790px}.hero h1{font-size:2.15rem}.training-visual{height:245px}.training-photo{height:245px}}
+.address-map{display:block;width:100%;height:300px;margin-top:16px;border:0;border-radius:3px}
+@media(max-width:700px){.address-map{height:260px}}
+.message{background:#fff}
+.message .wrap{max-width:960px}
+.message .headrow{margin-bottom:22px}
+.message-copy{max-width:880px}
+.message-copy p{font-size:1rem;line-height:2.05;color:#3d4a40;margin:0 0 15px}
+.message-copy p:last-child{margin-bottom:0}
+.profile-photo{width:min(100%,370px);height:400px;min-height:0;margin:0 auto 28px}
+.profile-photo .training-photo{height:400px;min-height:0;border-radius:3px}
+.profile-card{max-width:960px;margin:auto;min-height:0;background:#f7f6f0;padding:clamp(22px,4vw,42px)}
+.profile-identity{text-align:center}
+.profile-card .line{margin:22px 0}
+.profile-card .list-title{margin-top:20px}
+.profile-card .plain-list{color:#4a4a40}
+.profile-card .message-copy{max-width:none}
+.fee-table{width:100%;margin-top:14px;border-collapse:collapse;background:#fff;text-align:center;font-size:.74rem;line-height:1.45}
+.fee-table th,.fee-table td{border:1px solid #c9cbc8;padding:9px 4px;white-space:nowrap}
+.fee-table thead{background:#626262;color:#fff}
+.fee-table tbody th{background:#f3f0e9;text-align:left;font-weight:700}
+.fee-table-note{margin:9px 0 0!important;font-size:.72rem!important;line-height:1.6;color:#555!important}
+@media(max-width:430px){.fee-table{font-size:.67rem}.fee-table th,.fee-table td{padding:8px 2px}}
+.electro-menu{margin-top:30px;background:#f2f0e8;padding:clamp(18px,3vw,30px);border-radius:4px}
+.electro-menu-title{margin:0 0 15px;color:#292a25;font-size:1.45rem}
+.electro-menu-head{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:16px;margin-bottom:22px}
+.electro-menu-badge{display:grid;place-items:center;min-height:68px;padding:8px 16px;border-radius:10px;background:#79987e;color:#fff;text-align:center;font-size:.9rem;font-weight:750;line-height:1.5;white-space:nowrap}
+.electro-menu-head p{margin:0;color:#42453f;font-size:.95rem;font-weight:650}
+.electro-table{width:100%;border-collapse:collapse;table-layout:fixed;background:#f8f7f4;text-align:center}
+.electro-table th,.electro-table td{padding:14px 10px;border:1px solid #c9cbc8}
+.electro-table thead{background:#626262;color:#fff}
+.electro-table thead th{font-weight:700}
+.electro-table thead th:nth-child(1){width:25%}.electro-table thead th:nth-child(2){width:40%}.electro-table thead th:nth-child(3){width:14%}.electro-table thead th:nth-child(4){width:21%}
+.electro-table tbody th{background:#f3f0e9;font-size:.9rem}
+.electro-table tbody td:nth-child(1){line-height:1.7}
+.menu-restore{margin-top:48px}
+.menu-restore .headrow{min-height:190px;padding:28px;align-items:center;background:linear-gradient(90deg,rgba(16,26,22,.82),rgba(16,26,22,.26)),url("assets/training-session.png") center 52%/cover no-repeat;border-radius:3px;margin-bottom:24px}
+.menu-restore .headrow h2{color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.5);margin:0}
+.menu-restore .menu-list{margin-top:0}
+@media(max-width:700px){.menu-restore .headrow{min-height:150px;padding:20px}}
+
+@media(max-width:600px){.profile-photo{width:min(100%,320px);height:340px}.profile-photo .training-photo{height:340px}}
+
+.electro-table-wrap{width:100%;min-width:0;overflow-x:auto}
+.electro-table tbody tr:nth-child(odd) td{background:#ececec}
+.electro-table tbody tr:nth-child(even) td{background:#f7f6f4}
+.fees>.electro-menu{grid-column:1/-1;min-width:0}
+@media(min-width:821px){.fees{grid-template-columns:repeat(2,minmax(0,1fr))}.fees>article.fee:nth-of-type(2){grid-column:1/-1;grid-row:2}.fees>article.fee:nth-of-type(3){grid-column:2;grid-row:1}.fees>.electro-menu{grid-row:3}}
+@media(max-width:820px){.fees>article.fee:nth-of-type(3){grid-column:auto;grid-row:auto}}
+@media(max-width:700px){.electro-menu-head{grid-template-columns:1fr;gap:10px}.electro-menu-badge{width:max-content;min-height:0}.electro-menu{padding:16px}.electro-table{min-width:560px}}
+
+/* Sports-focused visual treatment: preserve all section and table geometry. */
+:root{--night:#102033;--deep:#f2f6f7;--pine:#12605a;--lime:#c8f15a;--paper:#f2f6f7;--white:#fff;--ink:#142638;--muted:#607381;--line:#d8e2e8}
+body{background:var(--paper);color:var(--ink)}
+h2{font-family:var(--sans);font-weight:800;letter-spacing:.02em;color:var(--ink)}
+.top{background:transparent;color:#fff}
+.head{color:#fff}
+.brand{color:#fff;text-shadow:0 1px 10px #06142166}
+.nav{background:rgba(10,25,40,.82);border:1px solid #ffffff35;box-shadow:0 8px 24px #07152230;backdrop-filter:blur(10px)}
+.nav a{color:#f5f8fa}
+.nav a[href="#menu"]{background:var(--lime);color:var(--night)}
+.hero{background:linear-gradient(90deg,rgba(8,20,33,.91) 0%,rgba(8,20,33,.78) 38%,rgba(8,20,33,.42) 68%,rgba(8,20,33,.12) 100%),url("assets/training-session.png") center/cover no-repeat;color:#fff}
+.tagline p{background:rgba(10,25,40,.78);border-left:3px solid var(--lime);color:#f5f8fa;box-shadow:0 8px 26px #07152230}
+.herolinks a{background:rgba(10,25,40,.5);border-color:#ffffff9c;color:#fff;backdrop-filter:blur(4px)}
+.herolinks a:first-child{background:var(--lime);border-color:var(--lime);color:var(--night)}
+.section.dark{background:#edf3f5;color:var(--ink)}
+.section.green{background:#e1ecee}
+.coach-card{background:#fff;color:var(--ink);border:1px solid var(--line);border-top:4px solid var(--pine);box-shadow:0 10px 28px #12283a0c}
+.coach-card:after{border-color:#12605a55;box-shadow:0 0 0 30px #12605a0c,0 0 0 62px #12605a08}
+.coach-label,.list-title{color:var(--pine)}
+.coach-name{color:var(--ink)}
+.line{background:#c7d8dc}
+.plain-list{color:#435765}
+.fee{background:#fff;border-top:4px solid var(--pine);box-shadow:0 8px 24px #12283a0b}
+.fee h3{color:var(--ink)}
+.electro-menu{background:#e7eff1;border:1px solid #d4e1e5}
+.menu-restore .headrow{background:linear-gradient(90deg,rgba(8,20,33,.86),rgba(8,20,33,.26)),url("assets/hero-treatment.png") center 48%/cover no-repeat}
+.menu-item{background:var(--night);color:#fff;border-top:3px solid var(--lime);box-shadow:0 10px 22px #10203320}
+.menu-item h3{color:var(--lime)}
+.menu-item p{color:#e0e8ee}
+.menu-item .cost-title{color:#b8c8d2}
+.menu-item .price-row{border-color:#ffffff38;color:#fff}
+.news{background:var(--night);border-left:5px solid var(--lime)}
+.news a{color:var(--lime);border-color:#c8f15a99}
+.room-card{background:linear-gradient(135deg,#102033,#12605a 62%,#0b2d39);color:#fff}
+.room-card:before,.room-card:after{border-color:#c8f15a70}
+.room-card h3{color:var(--lime)}
+.section.dark .faq details{border-color:#cbd9df}
+.section.dark .faq summary:after{color:var(--pine)}
+.section.dark .faq details p{color:#526574}
+.hoursbox{background:#fff;border-top:4px solid var(--pine)}
+.hours thead{color:var(--pine)}
+.foot{background:#0c1825;color:#fff}
+.side-dock{background:rgba(10,25,40,.94);box-shadow:0 6px 24px #07152230;backdrop-filter:blur(9px)}
+.side-dock a{color:#fff;border-color:#ffffff2b}
+.side-dock a:last-child{background:var(--lime);color:var(--night)}
+.mobile-nav{background:#102033f2}
+.mobile-nav a{background:var(--lime);color:var(--night)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+
+/* LINE contact CTA: keep the target visible until the clinic supplies its URL. */
+.side-dock a.line-cta{background:#06c755;color:#fff}
+.side-dock a.line-cta:after{content:"URL準備中";font-size:.62rem;opacity:.88}
+.mobile-nav a.line-cta{display:flex;align-items:center;justify-content:center;gap:9px;background:#06c755;color:#fff}
+.mobile-nav a.line-cta:after{content:"↓";font-size:1.05rem}
+.line-status{padding:3px 7px;border:1px solid #ffffff7a;border-radius:999px;font-size:.62rem;font-weight:700;line-height:1.2}
+.line-status-note{color:#596d63;font-size:.7rem;white-space:nowrap}
+.site-toc{position:relative;margin-left:auto;z-index:10}
+.site-toc>summary{list-style:none;display:flex;align-items:center;gap:9px;cursor:pointer;padding:10px 15px;border:1px solid #ffffff55;border-radius:4px;background:rgba(10,25,40,.88);color:#fff;font-size:.76rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;box-shadow:0 6px 18px #07152230}
+.site-toc>summary::-webkit-details-marker{display:none}
+.site-toc>summary:after{content:"＋";color:var(--lime);font-size:1rem}
+.site-toc[open]>summary:after{content:"×"}
+.site-toc .nav{position:absolute;top:calc(100% + 9px);right:0;display:none;flex-direction:column;align-items:stretch;gap:2px;width:min(280px,calc(100vw - 38px));max-height:calc(100vh - 112px);overflow-y:auto;margin:0;padding:8px;background:rgba(10,25,40,.97);border:1px solid #ffffff35;border-radius:6px;box-shadow:0 12px 32px #07152240;backdrop-filter:blur(12px)}
+.site-toc[open] .nav{display:flex}
+.site-toc .nav a{padding:9px 12px;border-radius:3px;color:#f5f8fa;white-space:nowrap}
+.site-toc .nav a:hover,.site-toc .nav a:focus-visible{background:#ffffff18}
+html{scroll-padding-top:100px}
+@media(max-width:820px){.site-toc .nav a:not(:last-child){display:block}}
+.leg-recovery-line{display:inline}@media(max-width:700px){.leg-recovery-line{display:block;font-size:.9rem;line-height:1.65}}.shoulder-mobile-line{display:inline}@media(max-width:700px){.shoulder-mobile-line{display:block}}.eye-fatigue-line{display:inline}@media(max-width:700px){.eye-fatigue-line{display:block;white-space:nowrap;font-size:.7rem;line-height:1.65;letter-spacing:-.03em}.electro-table th,.electro-table td{padding-left:3px;padding-right:3px}}.facial-menu-line{display:inline}@media(max-width:700px){.facial-menu-line{display:block}}.facial-desc-line{display:inline}@media(max-width:700px){.facial-desc-line{display:block;white-space:nowrap;font-size:.83rem}}@media(max-width:680px){.hero h1{font-size:clamp(1.3rem,7.2vw,3.25rem);letter-spacing:0}.hero-title-first,.hero-title-last{white-space:nowrap}.hero-desktop-break{display:none}}/* Warm brown sports palette */
+:root{--night:#30231c;--deep:#f1e7dc;--pine:#79553d;--lime:#d6a36e;--paper:#f7f2ec;--white:#fffdfa;--ink:#30231c;--muted:#76685d;--line:#dfd2c5}
+.hero{background-image:linear-gradient(90deg,rgba(47,32,24,.92) 0%,rgba(47,32,24,.78) 38%,rgba(47,32,24,.42) 68%,rgba(47,32,24,.12) 100%),url("assets/training-session.png")}
+@media(max-width:820px){.hero{background-image:linear-gradient(90deg,rgba(47,32,24,.92) 0%,rgba(47,32,24,.82) 48%,rgba(47,32,24,.54) 100%),url("assets/training-session.png")}}
+.sport-art .disc{border-color:#d6a36e80}
+.section.dark{background:var(--deep);color:var(--ink)}.section.dark .copy p{color:#51443a}.section.green{background:#efe4d8}
+.kicker{color:#845c40}.feature .num{color:#9a6843}.activity{border-top-color:#b88b62}.fee .code{color:#805638}.fee p{color:#51443a}
+.coach-card:after{border-color:#d6a36e80;box-shadow:0 0 0 30px #d6a36e18,0 0 0 62px #d6a36e0d}
+.coach-label,.list-title{color:var(--pine)}.line{background:#dfd2c5}.plain-list{color:#55473d}
+.electro-menu{background:#f0e7de;border-color:#dfd2c5}
+.menu-restore .headrow{background:linear-gradient(90deg,rgba(47,32,24,.88),rgba(47,32,24,.28)),url("assets/hero-treatment.png") center 48%/cover no-repeat}
+.menu-item .cost-title{color:#ddc4a6}
+.room-card{background:linear-gradient(135deg,#30231c,#79553d 62%,#241a15)}.room-card:before,.room-card:after{border-color:#d6a36e80}
+.section.dark .faq details{border-color:#dfd2c5}.section.dark .faq summary:after{color:var(--pine)}.section.dark .faq details p{color:#625449}
+.hoursbox{border-top-color:var(--pine)}.hours thead{color:var(--pine)}
+.foot{background:#241a15}.side-dock{background:rgba(48,35,28,.95)}.site-toc>summary,.site-toc .nav{background:rgba(48,35,28,.96)}
+.mobile-nav{background:#30231cf2}.line-status-note{color:#75675d}
+@media(max-width:820px){.nav{background:rgba(48,35,28,.94)}}
+a:focus-visible,button:focus-visible{outline-color:var(--lime)}
+.menu-item:after{border-color:#d6a36e80}@media(max-width:680px){.hero{background-image:linear-gradient(180deg,rgba(48,35,28,.18) 0%,rgba(48,35,28,.08) 40%,rgba(48,35,28,.78) 100%),url("assets/training-session.png");background-size:cover;background-position:80% center;background-repeat:no-repeat;background-color:#30231c}.hero-grid{padding:250px 0 38px}.hero h1{text-shadow:0 2px 12px rgba(0,0,0,.72)}}.brand{gap:10px;letter-spacing:0;text-shadow:none}.brand-logo{display:block;width:48px;height:48px;flex:0 0 48px;object-fit:cover;object-position:center 20%;border:2px solid #f1e7dc;border-radius:50%;background:#fff}.brand-copy{display:flex;flex-direction:column;line-height:1.35}.brand-name{font-size:.92rem;letter-spacing:.08em;font-weight:800}.brand-tagline{font-size:.61rem;letter-spacing:.06em;color:#f0d8ba;white-space:nowrap}@media(max-width:430px){.brand-logo{width:40px;height:40px;flex-basis:40px}.brand-name{font-size:.82rem}.brand-tagline{font-size:.55rem;letter-spacing:.02em}}
+.address{margin:20px 0 12px;padding:14px 18px;background:#f7f2ec;border-left:3px solid var(--pine);border-radius:3px;font:500 .92rem/1.85 var(--sans);color:var(--ink)}.address-postal{display:inline-block;margin-bottom:2px;color:var(--muted);font-size:.78rem;font-weight:700;letter-spacing:.06em}.address-map{margin-top:0}.address-building{margin-left:1em}@media(max-width:700px){.address{padding:13px 15px;font-size:.88rem}.address-building{display:block;margin-left:0}}@media(max-width:700px){.facial-desc-line,.eye-fatigue-line,.shoulder-mobile-line,.leg-recovery-line{font-size:.83rem}}.footnotes .parking-note span{display:block;margin-left:1em}.footnotes .clinic-days-note span{display:block;margin-left:1.25em}.footnotes .station-note span{display:block;margin-left:1.25em}.hero{background-image:linear-gradient(90deg,rgba(48,35,28,.98) 0%,rgba(48,35,28,.9) 38%,rgba(48,35,28,.52) 58%,rgba(48,35,28,.05) 78%),url("assets/sato-treatment.jpg");background-size:100% 100%,auto 100%;background-position:left top,right center;background-repeat:no-repeat;background-color:#30231c}.hero:before,.hero:after,.sport-art{display:none}@media(max-width:820px) and (min-width:681px){.hero{background-size:100% 100%,auto 100%;background-position:left top,right center}}@media(max-width:680px){.hero{min-height:100svh;background-image:linear-gradient(180deg,rgba(48,35,28,.18) 0%,rgba(48,35,28,.08) 44%,rgba(48,35,28,.76) 100%),url("assets/sato-treatment.jpg");background-size:cover;background-position:50% 46%;background-repeat:no-repeat}.hero-grid{padding:250px 0 38px}}.site-toc .nav a:focus{background:#ffffff18;outline:2px solid var(--lime);outline-offset:1px}.site-toc .nav a[href="#menu"]{background:transparent;color:#f5f8fa;font-weight:inherit;padding:9px 12px}.site-toc .nav a[href="#menu"]:hover,.site-toc .nav a[href="#menu"]:focus{background:#ffffff18}.hours .reservation-only{font-size:.66rem;line-height:1.3;white-space:nowrap;color:var(--pine);font-weight:700}.fee-other{margin-top:14px}.other-services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:16px}.other-services .menu-item{min-height:0}.other-services .menu-item p{min-height:66px}.service-diagram{display:block;width:100%;height:96px;margin:0 0 15px;color:#f0d8ba}.other-service h3{position:relative;z-index:1}.other-service p,.other-service .cost-title,.other-service .price-row{position:relative;z-index:1}@media(max-width:820px){.other-services{grid-template-columns:1fr}.other-services .menu-item p{min-height:0}}
+.fee-selfpay{margin-top:14px}.fee-selfpay .electro-menu{margin-top:18px}</style>
+</head>
+<body>
+<header class="top"><div class="wrap head"><a class="brand" href="#top" aria-label="たすく整骨院 トップページ"><img class="brand-logo" src="assets/tasuku-logo.jpg" alt="たすく整骨院のロゴ"><span class="brand-copy"><span class="brand-name">たすく整骨院</span><span class="brand-tagline">〜動ける身体を、つくる〜</span></span></a><details class="site-toc"><summary aria-label="メニュー">MENU</summary><nav class="nav" aria-label="ページ内メニュー"><a href="#top">トップページ</a><a href="#profile">院長の挨拶</a><a href="#about">当院の特徴</a><a href="#fees">施術料金</a><a href="#menu">施術内容</a><a href="#news">お知らせ一覧</a><a href="#room">院内の様子</a><a href="#faq">よくある質問</a><a href="#access">アクセス</a></nav></details></div>
+<section class="hero" id="top"><div class="wrap hero-grid"><div class="hero-copy"><h1><span class="hero-title-first">スポーツ現場で培った</span><br><span class="hero-title-last"><span>施術と経験を</span><br class="hero-desktop-break"><span>すべての人へ</span></span></h1></div><div class="sport-art" aria-hidden="true"><div class="disc"></div><div class="lane"></div><div class="slash"></div><div class="sil"></div></div></div></section>
+</header>
+<section class="section message profile-section" id="profile"><div class="wrap"><figure class="training-visual profile-photo"><img class="training-photo" src="assets/sato-portrait-placeholder.svg" alt="佐藤の仮の顔写真（イラストの仮画像）"><figcaption>佐藤の仮の顔写真</figcaption></figure><div class="coach-card profile-card"><div class="coach-bio"><div class="profile-identity"><div class="coach-label">たすく整骨院院長</div><div class="coach-name">佐藤　亮太</div></div><div class="line"></div><div class="message-copy"><p>これまで数多くのスポーツ選手の施術を行い、現在もスポーツ現場に出ています。</p><p>そこで培った知識や技術、そしてこれまでの経験を、スポーツ選手だけではなく、身体の痛みや不調を抱えるすべての方に提供したいと考えています。</p><p>痛みや不調は、施術だけですべてが改善されるとは限りません。</p><p>そのため、身体の状態に合わせて必要な運動やセルフケアなどをご提案し、〃動ける身体“を目指してサポートいたします。</p><p>運動やリハビリが辛いと感じる時には、抱え込まずにぜひご相談ください。</p><p>これまでの経験を活かして精一杯サポートいたします。</p><p>身体と向き合い、改善に向けて一緒に頑張っていきましょう。</p></div><div class="list-title">資格</div><ul class="plain-list"><li>・柔道整復師</li><li>・中高教諭免許</li></ul><div class="list-title">トレーナー活動歴</div><ul class="plain-list"><li>・ミキハウス硬式野球部</li><li>・プロ野球選手キャンプ帯同</li><li>・大阪学芸硬式野球部遠征帯同</li><li>・大学女子硬式野球部遠征、試合帯同</li><li>・クラシックバレエ　舞台帯同　etc.</li></ul></div></div></div></section>
+<aside class="side-dock"><a class="line-cta" href="#line-contact">LINEでお問い合わせ</a></aside>
+<main>
+<section class="section dark" id="about"><div class="wrap"><div class="headrow"><div><h2>当院の特徴</h2></div></div><div class="copy"><p>当院では問診、カウンセリングをしっかりと行います。</p><p>スポーツ外傷、捻挫や挫傷(肉離れ、ギックリ腰、寝違え)などの対応はもちろん、</p><p>不調の原因となる姿勢や動きを評価し、慢性痛(保険外)に対しても対応しています。</p><p>時には運動療法も取り入れ、根本治癒、動ける身体を目指してサポートします。</p><p>日常生活での不調や不安のある方はお気軽にご相談ください。</p><p>スポーツ選手に対してのパフォーマンスの向上、コンディショニングの改善にも力を入れています。</p></div></div></section>
+<section class="section" id="fees"><div class="wrap"><div class="headrow"><div><h2>施術料金</h2></div></div><div class="fees"><article class="fee"><h3>01 保険治療（保険証をご提示ください）</h3><p>骨折・脱臼・捻挫・打撲・挫傷といった急性外傷に対して施術を行います。</p><p>（寝違い・ぎっくり腰・肉離れなど含む）</p><p class="aside">※骨折・脱臼の施術には医師の同意が必要となります。</p><p class="aside">※どなたでも一度お気軽にご相談ください。</p><table class="fee-table" aria-label="保険治療の料金目安"><thead><tr><th scope="col"></th><th scope="col">初診</th><th scope="col">再検</th><th scope="col">後療</th></tr></thead><tbody><tr><th scope="row">3割負担の方</th><td>1,500円</td><td>700円</td><td>600円</td></tr><tr><th scope="row">2割負担の方</th><td>1,200円</td><td>600円</td><td>500円</td></tr><tr><th scope="row">1割負担の方</th><td>800円</td><td>350円</td><td>300円</td></tr></tbody></table><p class="fee-table-note">※施術箇所・内容により異なるためあくまでも目安になります。</p></article><article class="fee"><h3>02 保険外治療</h3><p>身体の様々な不調に対して施術を行います。</p><p class="aside">姿勢矯正・骨盤矯正・頭痛・肩こり・四十肩・慢性腰痛・腱鞘炎・股関節痛・膝痛・しびれ・スポーツ障害　etc.</p><h3>施術料金</h3><div class="price-row"><span>30分</span><span>¥4,400</span></div><div class="price-row"><span>60分</span><span>¥8,800</span></div></article><article class="fee"><h3>03 交通事故治療</h3><p>交通事故が原因の痛み（むち打ちやそれに伴う手足のしびれ、関節痛、打撲など）に対しての施術を行います。</p><p>自賠責保険・任意保険の適応により、事故による怪我の治療の患者様の自己負担は0円になります。</p><p>お気軽にご相談ください。</p><p class="aside">※整形外科での診断が必要になります。</p></article></div><article class="fee fee-other" id="menu"><h3>04 その他</h3><div class="other-services">
+<article class="menu-item other-service"><svg class="service-diagram" viewBox="0 0 180 100" role="img" aria-label="電気施術のイメージ図"><circle cx="90" cy="50" r="43" fill="#ffffff08" stroke="#ffffff35"/><path d="M86 18c-11 0-18 8-18 19v12c0 8-8 12-8 23v11h58V72c0-11-8-15-8-23V37c0-11-8-19-18-19Z" stroke="currentColor" stroke-width="2.5"/><rect x="49" y="44" width="15" height="22" rx="4" fill="#d6a36e" stroke="currentColor" stroke-width="2"/><rect x="116" y="44" width="15" height="22" rx="4" fill="#d6a36e" stroke="currentColor" stroke-width="2"/><path d="M56 66v9h12M124 66v9h-12M90 39l-7 12h8l-4 11 14-17h-9l4-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><h3>エレクトロトリートメント</h3><p>特殊な電気を用いた施術で深層部まで瞬時にアプローチします。数多くのスポーツ選手も利用しています。</p><div class="cost-title">施術料金</div><div class="price-row"><span>1ヶ所</span><span>¥1,200〜</span></div><div class="price-row"><span>学生</span><span>¥500〜</span></div></article>
+<article class="menu-item other-service"><svg class="service-diagram" viewBox="0 0 180 100" role="img" aria-label="超音波機器のイメージ図"><circle cx="90" cy="50" r="43" fill="#ffffff08" stroke="#ffffff35"/><rect x="35" y="29" width="48" height="42" rx="6" stroke="currentColor" stroke-width="2.5"/><rect x="44" y="37" width="29" height="17" rx="2" fill="#d6a36e" fill-opacity=".35" stroke="currentColor" stroke-width="2"/><circle cx="49" cy="62" r="2" fill="currentColor"/><circle cx="59" cy="62" r="2" fill="currentColor"/><path d="M83 49c20 0 15 28 31 28h9M123 77l8-11M123 77l-8-10M139 39c7 6 7 16 0 22M148 33c12 10 12 25 0 35" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><h3>超音波</h3><p>痛みや炎症を和らげたり筋や腱などの組織の早期回復を目指します。</p><div class="cost-title">施術料金</div><div class="price-row"><span>1ヶ所</span><span>¥1,200〜</span></div><div class="price-row"><span>学生</span><span>¥500〜</span></div></article>
+<article class="menu-item other-service"><svg class="service-diagram" viewBox="0 0 180 100" role="img" aria-label="テーピングのイメージ図"><circle cx="90" cy="50" r="43" fill="#ffffff08" stroke="#ffffff35"/><path d="M72 20h32l-4 27-9 11-2 23H67l8-25-8-13 5-23Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M69 34h33M68 44h32M71 54h27M75 64h18" stroke="#d6a36e" stroke-width="5" stroke-linecap="round"/><path d="M71 34l29 10M68 44l31 10M71 54l25 10" stroke="currentColor" stroke-width="1.5"/></svg><h3>テーピング</h3><p></p><div class="cost-title">施術料金</div><div class="price-row"><span>1ヶ所</span><span>¥300〜</span></div></article>
+<article class="menu-item other-service"><svg class="service-diagram" viewBox="0 0 180 100" role="img" aria-label="運動指導のイメージ図"><circle cx="90" cy="50" r="43" fill="#ffffff08" stroke="#ffffff35"/><circle cx="90" cy="27" r="7" stroke="currentColor" stroke-width="2.5"/><path d="M90 35v24M90 41 72 30M90 41l18-11M90 59 76 80M90 59l15 21M72 30l-7-6M108 30l7-6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M55 47c-5 4-8 10-8 16M125 47c5 4 8 10 8 16" stroke="#d6a36e" stroke-width="2.5" stroke-linecap="round"/></svg><h3>運動指導・健康体操</h3><p>お気軽にご相談ください</p></article>
+</div></article><article class="fee fee-selfpay" id="private-menu"><h3>05 完全自費予約メニュー</h3><div class="electro-menu"><h3 class="electro-menu-title">エレクトロメニュー</h3><div class="electro-menu-head"><span class="electro-menu-badge">完全自費<br>予約メニュー</span><p>身体の様々な悩みに、確かな治療効果をご実感いただけます</p></div><div class="electro-table-wrap"><table class="electro-table" aria-label="エレクトロメニュー"><thead><tr><th scope="col">メニュー</th><th scope="col">内容</th><th scope="col">時間</th><th scope="col">価格<br>（税込）</th></tr></thead><tbody><tr><th scope="row"><span class="facial-menu-line">フェイシャル</span><span class="facial-menu-line">（美顔）</span></th><td data-label="内容"><span class="facial-desc-line">リフトアップ、フェイスラインが</span><span class="facial-desc-line">気になる方に</span></td><td data-label="時間">45分</td><td data-label="価格（税込）">8,800円</td></tr><tr><th scope="row">眼精疲労</th><td data-label="内容"><span class="eye-fatigue-line">デスクワーク等による、眼の疲れ</span><span class="eye-fatigue-line">またはそれによる首こりに</span><span class="eye-fatigue-line">お悩みの方に</span></td><td data-label="時間">20分</td><td data-label="価格（税込）">2,500円</td></tr><tr><th scope="row">肩甲骨はがし</th><td data-label="内容"><span class="shoulder-mobile-line">頚こりや肩こり等で</span><span class="shoulder-mobile-line">お悩みの方に</span></td><td data-label="時間">20分</td><td data-label="価格（税込）">3,300円</td></tr><tr><th scope="row">レッグリカバリー</th><td data-label="内容"><span class="leg-recovery-line">下肢の筋肉を徹底的に緩め、</span><span class="leg-recovery-line">こむら返りや脚のだるさ、</span><span class="leg-recovery-line">疲れを改善</span></td><td data-label="時間">20分</td><td data-label="価格（税込）">3,300円</td></tr></tbody></table></div></div></article></div></section>
+
+<section class="section" id="news"><div class="wrap"><div class="news"><h3>お知らせ一覧</h3><p>投稿がまだありません。</p><a href="#news">お知らせ一覧</a></div></div></section>
+<section class="section green" id="room"><div class="wrap"><div class="headrow"><div><h2>院内の様子</h2></div></div><div class="room-card"><h3>院内の様子</h3></div></div></section>
+<section class="section dark" id="faq"><div class="wrap"><div class="headrow"><div><h2>よくある質問</h2></div></div><div class="faq"><details><summary>Q　予約は必要ですか？</summary><p>A　当院は予約優先制です。ご予約いただくと待ち時間が少なくスムーズにご案内できます。当日受付も可能ですので、お気軽にお問い合わせください。</p></details><details><summary>Q　初めてですが、どのくらい時間がかかりますか？</summary><p>A　初回はカウンセリングと検査を行うため、目安として60分ほどお時間をいただきます（内容により前後します）。2回目以降は30〜40分が目安です。</p></details><details><summary>Q　どんな服装で行けば良いですか？</summary><p>A　動きやすい服装がおすすめです（伸縮性のあるトップス・パンツなど）。必要に応じてお着替えをご用意しています。</p></details><details><summary>Q　保険は適用ですか？</summary><p>A　施術内容により保険が適用になります。初回のヒアリング時にお費用についても詳しくご説明いたします。</p></details></div></div></section>
+<section class="section" id="access"><div class="wrap access-grid"><div><h2>たすく整骨院</h2><p class="address"><span class="address-postal">〒543-0013</span><br>大阪府大阪市天王寺区玉造本町8-2<span class="address-building">リバーライズ玉造</span></p><iframe class="address-map" title="住所周辺のGoogleマップ" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen src="https://maps.google.com/maps?q=〒543-0013+大阪府大阪市天王寺区玉造本町8-2+リバーライズ玉造&amp;output=embed"></iframe><div class="contact-data"><p class="tel">tel. 000-0000-0000</p><div class="social"><span>contact_mail</span><button type="button" class="social-button instagram" disabled>Instagram</button><button type="button" id="line-contact" class="social-button line" disabled>LINE</button><span class="line-status-note">LINE URL準備中</span></div></div></div><div class="hoursbox"><h3>受付時間</h3><table class="hours"><thead><tr><th></th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th><th>日</th></tr></thead><tbody><tr><th>8:00〜12:00</th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>ー</td></tr><tr><th>12:00〜16:00</th><td class="reservation-only">予約のみ</td><td class="reservation-only">予約のみ</td><td>ー</td><td class="reservation-only">予約のみ</td><td class="reservation-only">予約のみ</td><td>ー</td><td>ー</td></tr><tr><th>16:00〜20:00</th><td>●</td><td>●</td><td>ー</td><td>●</td><td>●</td><td>ー</td><td>ー</td></tr></tbody></table><div class="footnotes"><p>休診日：日曜、祝日</p><p class="clinic-days-note">※ 水曜、土曜は午前のみ診療<br><span>日、祝　休診</span></p><p>※ 予約優先、飛び込み来院可</p><p>※駐輪場あり</p><p class="parking-note">※当院には駐車場はありません。<br><span>近隣にコインパーキングが数カ所ございます。</span></p><p class="station-note">※ 環状線玉造駅 徒歩２分<br><span>長堀鶴見緑地線玉造駅 徒歩５分</span></p></div></div></div></section>
+</main><footer class="foot"><div class="wrap foot-inner"><address>たすく整骨院<br>〒543-0013 大阪府大阪市天王寺区玉造本町8-2<span class="address-building">リバーライズ玉造</span></address><span class="copyright">© 2026 たすく整骨院. All rights reserved</span></div></footer>
+<div class="mobile-nav"><a class="line-cta" href="#line-contact"><span>LINEでお問い合わせ</span><small class="line-status">URL準備中</small></a></div>
+<script>const toc=document.querySelector(".site-toc");document.querySelectorAll(".site-toc .nav a").forEach(link=>link.addEventListener("click",()=>toc.removeAttribute("open")));toc.addEventListener("toggle",()=>{if(toc.open)requestAnimationFrame(()=>toc.querySelector(".nav a[href=\"#top\"]")?.focus())});</script>
+</body></html>
